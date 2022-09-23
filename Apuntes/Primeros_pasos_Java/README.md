@@ -33,7 +33,7 @@ En Java este proceso es algo diferente. En lugar de compilar para un sistema ope
 
 De modo que un programa Java, una vez compilado, podrá ser ejecutado por **cualquier JVM**. Lo que necesitaremos para poder ejecutar un **bytecode** de Java en cualquier arquitectura es una **JVM** que corra sobre ella.
 
-![ilustración compilación de archivo .java](.\Imagenes\Compilar_Java.svg)
+![ilustración compilación de archivo .java](Imagenes/Compilar_Java.svg)
 
 #### Entonces... para ejecutar un programa Java ¿Qué?
 
@@ -420,7 +420,7 @@ Cada una de las veces que se ejecuta el código de un **bucle** se dice que se h
 
 #### `if else` / `else if`
 
-![Condicional](.\Imagenes\Condicional.svg)
+![Condicional](Imagenes/Condicional.svg)
 
 Esta estructura permitirá que se ejecute un bloque de código u otro dependiendo de la condición.
 
