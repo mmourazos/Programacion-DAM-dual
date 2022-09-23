@@ -33,7 +33,7 @@ En Java este proceso es algo diferente. En lugar de compilar para un sistema ope
 
 De modo que un programa Java, una vez compilado, podrá ser ejecutado por **cualquier JVM**. Lo que necesitaremos para poder ejecutar un **bytecode** de Java en cualquier arquitectura es una **JVM** que corra sobre ella.
 
-![](.\Imagenes\Compilar_Java.svg)
+![ilustración compilación de archivo .java](.\Imagenes\Compilar_Java.svg)
 
 #### Entonces... para ejecutar un programa Java ¿Qué?
 
