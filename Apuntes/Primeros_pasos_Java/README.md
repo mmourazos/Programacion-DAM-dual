@@ -506,7 +506,7 @@ switch (value) {
 
 Estas estructuras determinan cuantas veces ha de repetirse un bloque de código. Puede indicarse un número fijo de repeticiones, como es el caso del `for` o establecer una condición para la repetición como es el caso del `while` y el `do while`.
 
-![](/Imagenes/Iterativa.svg)
+![Ilustración estructura iterativa](Imagenes/Iterativa.svg)
 
 #### `for`
 
