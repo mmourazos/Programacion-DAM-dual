@@ -26,10 +26,10 @@
      showgrid="false"
      inkscape:zoom="1.8822254"
      inkscape:cx="203.21689"
-     inkscape:cy="228.18734"
-     inkscape:window-width="3200"
-     inkscape:window-height="1711"
-     inkscape:window-x="2391"
+     inkscape:cy="448.67103"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
@@ -85,6 +85,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-28.391536,-87.620845)">
+    <rect
+       style="fill:#f2f2f2;fill-opacity:0.751938;stroke-width:0.499999;stroke-linejoin:round"
+       id="rect515"
+       width="84.903923"
+       height="130.02672"
+       x="27.879467"
+       y="87.063698" />
     <text
        xml:space="preserve"
        transform="matrix(0.15810737,0,0,0.15613348,16.971329,57.260517)"
