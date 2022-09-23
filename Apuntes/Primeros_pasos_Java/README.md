@@ -1,4 +1,7 @@
 # Introducción a Java
+En este directorio se pueden ver dos subdirectorios (`Codigo_fuente` y `Imagenes`) y tres ficheros: este que estás leyendo `README.md`,  `DAM - PR - Introducción a java.md` y `DAM - PR - Introducción a java.pdf`. Idealmente `README.md` y `DAM - PR - Introducción a java.md` deberían de ser idénticos. `DAM - PR - Introducción a java.pdf` sería el resutado de exportar a pdf alguno de los archivos MD.
+
+Con respecto a los directorios, `Codigo_fuente` contiene ejemplos de código fuente en Java para ilustrar los conceptos que se dan en este tema e `Imagenes` incluye las imágenes (formato SVG creadas con Inkscape) que se incluyen en este documento.
 
 ## Hola mundo
 
