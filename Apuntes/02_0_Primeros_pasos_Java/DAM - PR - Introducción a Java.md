@@ -565,6 +565,39 @@ do {
 } while (i < 100)
 ```
 
+#### `for`
+
+El bucle `for` en su forma clásica sirve para ejecutar en bloque de código un número predeterminado de veces. Su sintaxis es la siguiente:
+
+```java
+for (<primera sentencia>; <condición de continuación>; <segunda sentencia>) {
+    // Código a repetir.
+}
+```
+
+##### primera sentencia
+
+Esta sentencia se ejecuta únicamente **una vez** antes de iniciar el bucle. Normalmente se declara y se le da valor a una variable que irá modificándose con cada iteración del bucle.
+
+##### condición de continuación
+
+Mientras se cumpla la condición indicada en esta sección el bucle seguirá repitiéndose. Normalmente es una comparación respecto a la variable declarada en la **primera sentencia**.
+
+##### segunda sentencia
+
+Esta sentencia se ejecutará **cada vez que se ejecute una iteración** del bucle. Normalmente modifica el valor de la variable declarada en la **primera sentencia** de modo que se acerque cada vez más al fin del bucle (a que la **condición de continuación** deje de cumplirse).
+
+Un ejemplo con código real sería el siguiente:
+
+```java
+for (int i = 0; i < 100; i++) {
+    // Mostremos una línea de texto por cada iteración del bucle.
+    System.out.println("Iteración número " + i);
+}
+```
+
+
+
 ### Continuará...
 
 
