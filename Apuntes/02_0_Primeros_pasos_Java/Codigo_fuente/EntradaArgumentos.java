@@ -35,7 +35,5 @@ public class EntradaArgumentos {
 
         System.out.println(String.format(outputString, arg1, arg2, arg3, value1 + value2 + value3));
 
-
-
     }
 }
