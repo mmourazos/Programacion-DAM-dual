@@ -497,8 +497,6 @@ switch (value) {
 }
 ```
 
-
-
 ###  Estructuras repetitivas (estructuras iterativas o bucles)
 
 Estas estructuras determinan cuantas veces ha de repetirse un bloque de código. Puede indicarse un número fijo de repeticiones, como es el caso del `for` o establecer una condición para la repetición como es el caso del `while` y el `do while`.
@@ -595,8 +593,6 @@ for (int i = 0; i < 100; i++) {
     System.out.println("Iteración número " + i);
 }
 ```
-
-
 
 ### Continuará...
 

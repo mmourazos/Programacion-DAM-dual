@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch EntradaArgumentos",
+            "request": "launch",
+            "mainClass": "EntradaArgumentos",
+            "projectName": "Programación DAM dual_bd163ddb"
+        },
+        {
+            "type": "java",
+            "name": "Launch EntradaTeclado",
+            "request": "launch",
+            "mainClass": "EntradaTeclado",
+            "projectName": "Programación DAM dual_bd163ddb"
+        },
+        {
+            "type": "java",
+            "name": "Launch HolaMundo",
+            "request": "launch",
+            "mainClass": "HolaMundo",
+            "projectName": "Programación DAM dual_bd163ddb"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfElse",
+            "request": "launch",
+            "mainClass": "IfElse",
+            "projectName": "Programación DAM dual_bd163ddb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Switch",
+            "request": "launch",
+            "mainClass": "Switch",
+            "projectName": "Programación DAM dual_bd163ddb"
+        },
+        {
+            "type": "java",
+            "name": "Launch TiposDeDatos",
+            "request": "launch",
+            "mainClass": "TiposDeDatos",
+            "projectName": "Programación DAM dual_bd163ddb"
+        },
+        {
+            "type": "java",
+            "name": "Launch BucleDoWhile",
+            "request": "launch",
+            "mainClass": "bucles.BucleDoWhile",
+            "projectName": "Programación DAM dual_bd163ddb"
+        },
+        {
+            "type": "java",
+            "name": "Launch BucleFor",
+            "request": "launch",
+            "mainClass": "bucles.BucleFor",
+            "projectName": "Programación DAM dual_bd163ddb"
+        },
+        {
+            "type": "java",
+            "name": "Launch BucleWhile",
+            "request": "launch",
+            "mainClass": "bucles.BucleWhile",
+            "projectName": "Programación DAM dual_bd163ddb"
+        }
+    ]
+}

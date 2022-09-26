@@ -38,6 +38,5 @@ public enum TiposDeDatos {
         double d = 10.5; // Aquí ya no da error porque 10.5 se interpreta como double.
 
         /* Lo normal es que cuando trabajemos con números reales usemos siempre 'double'. */
-
     }
 }
