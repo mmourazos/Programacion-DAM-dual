@@ -48,8 +48,6 @@ Esta práctica facilita también que se evite el **acoplamiento**.
 
 ### Herencia / Jerarquía de clases
 
-
-
 ### Polimorfismo
 
 En programación, polimorfismo hace referencia a la existencia de un único **interface** (un *único* método) para interactuar con distintas **entidades** (clases u objetos).
@@ -67,6 +65,8 @@ For example, objects of type Circle and Square are derived from a common class c
 This is another type of abstraction that simplifies code external to the class hierarchy and enables strong [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns).
 
 ## Anatomía de una Clase
+
+### El significado de `this`
 
 ### Constructor
 
@@ -95,3 +95,5 @@ This is another type of abstraction that simplifies code external to the class h
 * `private`
 
 ## Herencia
+### Clases padres e hijas
+### Jerarquía de clases
