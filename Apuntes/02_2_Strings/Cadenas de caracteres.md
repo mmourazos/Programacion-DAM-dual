@@ -66,22 +66,45 @@ Hasta este momento estuvimos usando la concatenación para mostrar cadenas con v
 System.out.prinln("Hola " + nombre + ".");
 ```
 
-Otra forma de realizar esto es mediante el uso de cadenas con formato.
+Otra forma de realizar esto es mediante el uso de cadenas con formato:
+```java
+System.out.printf("Hola %s.\n");
+```
 
 Para ello hemos de usar el método `format` de la clase `String`:
 
-%a 	floating point (except BigDecimal) 	Returns Hex output of floating point number.
-%b 	Any type 	"true" if non-null, "false" if null
-%c 	character 	Unicode character
-%d 	integer (incl. byte, short, int, long, bigint) 	Decimal Integer
-%e 	floating point 	decimal number in scientific notation
-%f 	floating point 	decimal number
-%g 	floating point 	decimal number, possibly in scientific notation depending on the precision and value.
-%h 	any type 	Hex String of value from hashCode() method.
-%n 	none 	Platform-specific line separator.
-%o 	integer (incl. byte, short, int, long, bigint) 	Octal number
-%s 	any type 	String value
-%t 	Date/Time (incl. long, Calendar, Date and TemporalAccessor) 	%t is the prefix for Date/Time conversions. More formatting flags are needed after this. See Date/Time conversion below.
-%x 	integer (incl. byte, short, int, long, bigint) 	
+* `%a` : Acepta **float y genera la representación hexadecimal del número.
 
-Hex string.
+  ```java
+  System.out.printtf("%a", 1.25f);
+  //Muestra: 0x1.0p4
+  ```
+
+* `%b`: Acepta cualquier tipo y devuelve "true" si el argumento es **true** o no nulo y "false" en caso contrario.
+
+* `%c`: Acepta caracteres unicode y los representa.
+
+* **`%d`**: Acepta cualquier valor entero (byte, short, int, long o bigint) y lo representa.
+
+* `%e`: Acepta un float y lo representa en notación científica:
+
+  ```java
+  System.out.printf("%e", 1.25f);
+  // Muestra: 1,250000e+00
+  ```
+
+* **`%f`**: Acepta y representa números float.
+
+* `%g`: Acepta números reales float y los representa de distintas formas dependiendo de la precisión.
+
+* `%h`: Acepta cualquier tipo y representa su código hash (resultado del método `hashCode()`).
+
+* **`%n`**: No acepta ningún argumento. Genera una separación de líneas compatible con la plataforma en la que estemos programando.
+
+* `%o`:  Genera la representación **octal** de un valor entero.
+
+* **`%s`** : Acepta cualquier tipo y lo representa como un cadena de caracteres.
+
+* `%t`:  Acepta un valor que represente una fecha u hora. La conversión es más compleja como veremos más adelante.
+
+* `%x`: Representa un valor entero en forma hexadecimal.
