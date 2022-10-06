@@ -1,25 +1,19 @@
-import java.util.ArrayList;
-import org.cotarelo.gestion.AlumnoFP;
-import org.cotarelo.gestion.Ciclo;
-import org.cotarelo.gestion.Modulo;
-
+/**
+ * Main
+ */
 public class Main {
     public static void main(String[] args) {
-        Ciclo DAM_dual = new Ciclo();
-        DAM_dual.setNombreCiclo("DAM Dual");
-        Modulo programacion = new Modulo();
+        Alumno alumno = new Alumno();
+        // alumno es heredero de Object.
+        System.out.println(alumno.toString());
+        System.out.printf("%x%n", alumno.hashCode());
+        System.out.printf("%d%n", alumno.hashCode());
 
-        ArrayList<Modulo> modulos = new ArrayList<Modulo>();
-        modulos.add(programacion);
+        alumno.setNombre("Manuel");
+        alumno.setApellidos("Piñeiro");
 
-        DAM_dual.setModulos(modulos);
+        alumno.setFechaDeNacimiento(15, 5, 1977);
 
-        AlumnoFP alumno_fp_DAM_dual = new AlumnoFP();
-        alumno_fp_DAM_dual.setCiclo(DAM_dual);
-        alumno_fp_DAM_dual.setNombre("Manuel");
-        alumno_fp_DAM_dual.setApellidos("Piñeiro");
-        alumno_fp_DAM_dual.setCiclo(DAM_dual);
-
-        System.out.println(alumno_fp_DAM_dual);
+        System.out.println("Nací el " + alumno.getFechaDeNacimiento());
     }
 }

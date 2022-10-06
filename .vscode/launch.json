@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Visibilidad",
+            "request": "launch",
+            "mainClass": "pruebas.Visibilidad",
+            "projectName": "Programación DAM dual_bd163ddb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Visibilidad",
+            "request": "launch",
+            "mainClass": "Pruebas.Visibilidad",
+            "projectName": "Programación DAM dual_bd163ddb"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
