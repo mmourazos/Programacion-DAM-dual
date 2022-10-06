@@ -13,7 +13,7 @@
 .mtj.tmp/
 
 # VS Code stuff
-.vscode/
+.vscode/*
 
 # Package Files #
 *.jar
