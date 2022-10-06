@@ -22,7 +22,7 @@ public enum TiposDeDatos {
         // Para números reales tendremos dos tipos:
         float f = 10.5;
         
-        /* La línea anteroio da error porque, POR DEFECTO, los números reales se toman como double.
+        /* La línea anterior dará error porque, POR DEFECTO, los números reales se toman como double.
          * Así, el número 10.5, aunque no sea neceario, se almacena empleando 64 bits.
          * Si queremos evitar el error hemos de indicar que el número es float añadiendo la letra 'f'
          * a continuación del número:

@@ -11,7 +11,11 @@ public class Alumno extends Object {
     // [código]
     // }
 
-    public Alumno(String nombre, String apellidos, int )
+    public Alumno(String nombre, String apellidos, Calendar fecha_de_nacimiento) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.fecha_de_nacimiento = fecha_de_nacimiento;
+    }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
